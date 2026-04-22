@@ -70,7 +70,7 @@ if st.button("حساب الزاوية الهندسية"):
 
     # 3. عرض النتائج بشكل جمالي
     st.markdown(f"""
-        <div style="background-color: rgba(212, 175, 55, 0.1); border: 1px solid #D4AF37; padding: 20px; border-radius: 15px; text-align: center;">
+        <div style="background-color: rgba(400, 175, 55, 0.1); border: 1px solid #D4AF37; padding: 20px; border-radius: 15px; text-align: center;">
             <p style="margin: 0; font-size: 1.2em;">زاوية الرسم في الأوتوكاد (Grid Azimuth)</p>
             <h1 style="margin: 10px 0; font-size: 3em;">{grid_az:.2f}°</h1>
         </div>
@@ -83,4 +83,4 @@ if st.button("حساب الزاوية الهندسية"):
     c2.metric("تقارب الشبكة", f"{conv:.2f}°")
 
     st.markdown("---")
-    st.caption("إِنَّنِي أَنَا اللَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدْنِي وَأَقِمِ الصَّلَاةَ لِذِكْرِي بسم الله الرحمان الرحيم ... UTM Zone 30N يستخدم هذا التطبيق لإعطاء زاوية القبلة بدقة عالية خاصة لمشاريع المساجد, المنطقة.")
+    st.caption("إِنَّنِي أَنَا اللَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدْنِي وَأَقِمِ الصَّلَاةَ لِذِكْرِي ... UTM Zone 30N يستخدم هذا التطبيق لإعطاء زاوية القبلة بدقة عالية خاصة لمشاريع المساجد, المنطقة.")

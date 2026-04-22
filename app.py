@@ -8,7 +8,7 @@ st.markdown("""
     <style>
     /* تصميم الخلفية المتدرجة */
     .stApp {
-        background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+        background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 50%);
         color: #ffffff;
     }
     

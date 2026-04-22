@@ -9,20 +9,29 @@ st.markdown("""
     /* تصميم الخلفية المتدرجة */
     .stApp {
         background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-        color: #bbbb;
+        color: #ffffff;
     }
     
-    /* تصميم الحاويات (Cards) */
-    .stNumberInput, .stButton {
-        background-color: rgba(300, 300, 300, 0.05);
-        border-radius: 20px;
-        padding: 20px;
+    /* توضيح نصوص العناوين فوق الخانات (خط الطول والعرض) */
+    .stWidgetLabel p {
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
+        font-weight: bold !important;
+        text-shadow: 1px 1px 2px #000000; /* إضافة ظل خلف النص لزيادة الوضوح */
     }
 
-    /* تغيير لون العناوين للذهبي */
+    /* تحسين شكل خانات الإدخال */
+    .stNumberInput div div input {
+        background-color: #ffffff !important; /* جعل خلفية الخانة بيضاء */
+        color: #000000 !important; /* جعل الأرقام المكتوبة سوداء للتباين */
+        font-weight: bold;
+    }
+
+    /* تغيير لون العناوين الرئيسية للذهبي */
     h1, h2, h3 {
         color: #D4AF37 !important;
         text-align: center;
+        text-shadow: 2px 2px 4px #000000;
     }
 
     /* تخصيص الزر */
@@ -31,9 +40,10 @@ st.markdown("""
         background-color: #D4AF37 !important;
         color: #000000 !important;
         font-weight: bold;
-        border: None;
-        height: 3em;
-        border-radius: 10px;
+        border: none;
+        height: 3.5em;
+        border-radius: 12px;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
     }
     </style>
     """, unsafe_allow_html=True)

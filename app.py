@@ -14,9 +14,9 @@ st.markdown("""
     
     /* تصميم الحاويات (Cards) */
     .stNumberInput, .stButton {
-        background-color: rgba(100, 100, 100, 0.05);
-        border-radius: 10px;
-        padding: 10px;
+        background-color: rgba(300, 300, 300, 0.05);
+        border-radius: 20px;
+        padding: 20px;
     }
 
     /* تغيير لون العناوين للذهبي */

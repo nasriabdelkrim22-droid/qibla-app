@@ -9,7 +9,7 @@ st.markdown("""
     /* تصميم الخلفية المتدرجة */
     .stApp {
         background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-        color: #FFFFFF;
+        color: #bbbb;
     }
     
     /* تصميم الحاويات (Cards) */

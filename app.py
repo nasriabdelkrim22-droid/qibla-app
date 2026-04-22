@@ -14,8 +14,8 @@ st.markdown("""
     
     /* توضيح نصوص العناوين فوق الخانات (خط الطول والعرض) */
     .stWidgetLabel p {
-        color: #ffffff !important;
-        font-size: 4.1rem !important;
+        background-color: #ffffff !important;
+        font-size: 1.1rem !important;
         font-weight: bold !important;
         text-shadow: 1px 1px 2px #000000; /* إضافة ظل خلف النص لزيادة الوضوح */
     }

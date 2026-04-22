@@ -14,7 +14,7 @@ st.markdown("""
     
     /* تصميم الحاويات (Cards) */
     .stNumberInput, .stButton {
-        background-color: rgba(10, 10, 10, 0.05);
+        background-color: rgba(100, 100, 100, 0.05);
         border-radius: 10px;
         padding: 10px;
     }

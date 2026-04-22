@@ -2,7 +2,7 @@ import streamlit as st
 import math
 
 # 1. إعدادات التصميم والخلفية الجميلة (CSS)
-st.set_page_config(page_title="حاسبة القبلة الهندسية", page_icon="🕋", layout="centered")
+st.set_page_config(page_title="تطبيق زاوية القبلة", page_icon="🕋", layout="centered")
 
 st.markdown("""
     <style>
@@ -39,7 +39,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # 2. واجهة المستخدم
-st.title("🕋 حاسبة القبلة والأوتوكاد")
+st.title("🕋 حاسبة زاوية القبلة")
 st.write("أداة دقيقة لحساب زاوية القبلة مقارنة بالشمال الحقيقي أو الشمال الشبكي")
 
 with st.container():
